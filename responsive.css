@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+}
+a {
+  text-decoration: none;
+}
+p {
+  padding: 1.6rem 0;
+}
+
+/*header*/
+header {
+  height: 45rem;
+  /* background: red; */
+}
+header .bg-image {
+  background-image: url(img/bg.jpeg);
+  height: 45rem;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.4;
+  z-index: -1;
+  position: absolute;
+}
+header h1 {
+  padding: 11rem;
+  padding-bottom: 0;
+}
+.btn {
+  display: inline-block;
+  /* background: #333; */
+  color: #fff;
+  border: 1px solid #666;
+  padding: 1.6rem 3.2rem;
+  margin: 0.5rem 0;
+  transition: all 0.3s;
+}
+.btn:hover {
+  background-color: #eaeaea;
+  color: #333;
+}
+
+main .baslik {
+  background-color: white;
+  color: #333;
+  padding: 2rem;
+}
+main .kabak {
+  background: url(img/1.jpeg);
+  background-size: cover;
+  height: 45rem;
+  width: 100%;
+  background-position: center;
+}
+main .yarak {
+  background: url(img/2.jpeg);
+  background-size: cover;
+  height: 45rem;
+  width: 100%;
+  background-position: center;
+}
+main .kurek {
+  background: url(img/3.jpeg);
+  background-size: cover;
+  height: 45rem;
+  width: 100%;
+  background-position: center;
+}
+main .first {
+  padding: 2rem;
+  padding-bottom: 0;
+}
+.yazi {
+  background-color: white;
+  color: #333;
+}
+
+@media screen and (min-width: 700px) {
+  html {
+    font-size: 15px;
+  }
+}
